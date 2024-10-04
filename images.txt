@@ -8,3 +8,4 @@ xiaoyaliu/alist
 linuxserver/qbittorrent:4.6.5
 linuxserver/qbittorrent:latest
 jeessy/ddns-go
+windycloud/lanraragi_cn
