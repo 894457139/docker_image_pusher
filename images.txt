@@ -10,3 +10,4 @@ linuxserver/qbittorrent:latest
 jeessy/ddns-go
 windycloud/lanraragi_cn
 dezhao/lanraragi_cn
+linuxserver/transmission
