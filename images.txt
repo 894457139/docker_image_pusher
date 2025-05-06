@@ -12,3 +12,4 @@ windycloud/lanraragi_cn
 dezhao/lanraragi_cn
 linuxserver/transmission
 adolfintel/speedtest
+duan2001/nps
