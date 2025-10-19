@@ -15,3 +15,4 @@ adolfintel/speedtest
 duan2001/nps
 chigusa/bililive-go
 ydkn/cups
+setube/vue-xiuxiangame
