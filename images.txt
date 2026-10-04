@@ -18,3 +18,4 @@ ydkn/cups
 setube/vue-xiuxiangame
 linuxserver/chromium
 janten/iftop
+saveworldpig/wol
