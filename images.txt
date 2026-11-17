@@ -19,3 +19,4 @@ setube/vue-xiuxiangame
 linuxserver/chromium
 janten/iftop
 saveworldpig/wol
+ruoji6/artex
