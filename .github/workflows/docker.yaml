@@ -33,7 +33,7 @@ jobs:
         remove-haskell: 'true'
         remove-android: 'true'
         remove-codeql: 'true'
-        build-mount-path: '/var/lib/containerd/'
+        build-mount-path: '/var/lib/'   # 挂载到父级，而非 containerd 目录本身
 
     - name: Restart docker
       run: sudo service docker restart
