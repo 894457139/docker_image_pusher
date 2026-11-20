@@ -12,6 +12,7 @@ env:
   ALIYUN_REGISTRY_USER: "${{ secrets.ALIYUN_REGISTRY_USER }}"
   ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
 
+
 jobs:
 
   build:
@@ -105,7 +106,19 @@ jobs:
             if echo "$line" | grep -q '^\s*#'; then
                 continue
             fi
-        
+
+              - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          # 以下为默认清理项，通常保持 true 即可
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: false # 建议保持 false，移除 swap 可能导致内存不足
+          
             echo "docker pull $line"
             docker pull $line
             platform=$(echo "$line" | awk -F'--platform[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
