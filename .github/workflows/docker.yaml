@@ -33,7 +33,7 @@ jobs:
         remove-haskell: 'true'
         remove-android: 'true'
         remove-codeql: 'true'
-        # 不指定 build-mount-path，默认把根分区迁移到扩容后的大分区
+        build-mount-path: '/var/lib/containerd/'
 
     - name: Restart docker
       run: sudo service docker restart
