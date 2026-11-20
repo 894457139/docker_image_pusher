@@ -31,10 +31,9 @@ jobs:
         swap-size-mb: 128
         remove-dotnet: 'true'
         remove-haskell: 'true'
-        # 如果空间还是不够用，可以把以下开启，清理出更多空间
-        # remove-android: 'true'
-        # remove-codeql: 'true'
-        build-mount-path: '/var/lib/docker/'
+        remove-android: 'true'
+        remove-codeql: 'true'
+        # 不指定 build-mount-path，默认把根分区迁移到扩容后的大分区
 
     - name: Restart docker
       run: sudo service docker restart
