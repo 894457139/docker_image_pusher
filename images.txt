@@ -1,22 +1,3 @@
-nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
-xiaoyaliu/alist
-linuxserver/qbittorrent:4.6.5
-linuxserver/qbittorrent:latest
-jeessy/ddns-go
-windycloud/lanraragi_cn
-dezhao/lanraragi_cn
-linuxserver/transmission
-adolfintel/speedtest
-duan2001/nps
-chigusa/bililive-go
-ydkn/cups
-setube/vue-xiuxiangame
-linuxserver/chromium
-janten/iftop
-saveworldpig/wol
 ruoji6/artex
