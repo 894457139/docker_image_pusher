@@ -2,3 +2,4 @@
 #支持指定架构
 seriousm4x/upsnap
 linuxserver/qbittorrent
+ossrs/srs
